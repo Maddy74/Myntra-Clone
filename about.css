@@ -1,0 +1,185 @@
+body {
+    background-color: #fff;
+    margin-top: -17px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* navbar block code */
+.head-bar {
+    background-color: #fff;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 0px 17px 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+li a,
+.dropbtn {
+    color: #282C3F;
+    text-decoration: none;
+}
+
+h1{
+    font-size: small;
+    margin-left: 12px;
+    color: red;
+}
+
+/* Dropdown css code starts */
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown css code ends */
+
+/* dropdown code for Kids section */
+.column {
+    float: left;
+    min-width: 160px;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+}
+
+.columns {
+    float: left;
+    min-width: 160px;
+    padding: 12px 16px;
+    background-color: #f8e6f2;
+    height: 210px;
+}
+
+/* Ends here */
+
+/* Search textbox code here */
+#Search {
+    background-color: #F5F5F6;
+    border-radius: 10px;
+    padding: 8px 60px 10px;
+    margin-left: 100px;
+    color: #696e79;
+    border: 1px solid #f5f5f6; 
+    border-radius: 0 4px 4px 0;
+}
+
+/* search image code */
+input {
+    background-image: url("images/search.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 21px;
+}
+/* ends */
+
+/* placeholder code starts */
+input::placeholder {
+    overflow: visible;
+}
+
+/* ends */
+
+/* Right side nav bar code */
+.right {
+    float: right;
+    display: flex;
+    margin-top: -17px;
+    font-weight: bold;
+}
+/* ends */
+
+/* Hyperlinks code */
+a {
+    color: #282C3F;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0px 0px;
+    margin-right: 12px;
+}
+
+.img1 {
+    margin: 10px 0px 0px;
+}
+/* ends */
+
+/* footer code satrts */
+.foot{
+    background-color: #2c4152;
+    width: 100%;
+    height: 200px;
+    margin-bottom: -16px;
+}
+
+.copy{
+    color: #F5F5F6;
+    text-align: center;
+}
+
+.copywright{
+    margin-top: -183px;
+    margin-left: 12em;
+}
+h2{
+    color: #F5F5F6;
+    margin-left: 10em;
+}
+
+.about{
+    color: #F5F5F6;
+    padding: 12px;
+    margin-left: 15em;
+    font-size: 18px;
+}
+
+.main{
+    font-family: prompt,sans-serif;
+    font-size:16px;
+    color: black;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 18px;
+    font-size: 16px;
+}
